@@ -142,7 +142,8 @@ final class WP_Customize_Manager {
 		require_once( WP_FIELDS_API_DIR . 'implementation/wp-includes/class-wp-customize-section.php' );
 		require_once( WP_FIELDS_API_DIR . 'implementation/wp-includes/class-wp-customize-control.php' );
 		require_once( ABSPATH . WPINC . '/class-wp-customize-widgets.php' );
-		require_once( ABSPATH . WPINC . '/class-wp-customize-nav-menus.php' );
+		// require_once( ABSPATH . WPINC . '/class-wp-customize-nav-menus.php' );
+		require_once( WP_FIELDS_API_DIR . 'implementation/wp-includes/class-wp-customize-nav-menus.php' );
 
 		// Increment instance number
 		self::$instance_count++;
